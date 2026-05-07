@@ -42,7 +42,7 @@ Apps -> Search -> Klarity -> Connect
 From a Claude Code session, install directly from this repository:
 
 ```text
-/plugin install klarity-mcp@klarityinc/klarity-mcp
+/plugin install klarity-mcp@Klarity-AI/klarity-mcp
 ```
 
 Or, after the plugin is approved into the official Anthropic marketplace
@@ -67,7 +67,7 @@ codex mcp login klarity
 ## Install — Gemini CLI
 
 ```bash
-gemini extensions install klarityinc/klarity-mcp
+gemini extensions install Klarity-AI/klarity-mcp
 ```
 
 The Gemini CLI fetches `gemini-extension.json` from the repo root and registers
