@@ -39,13 +39,7 @@ Apps -> Search -> Klarity -> Connect
 
 ## Install — Claude Code
 
-From a Claude Code session, install directly from this repository:
-
-```text
-/plugin install klarity-mcp@Klarity-AI/klarity-mcp
-```
-
-Or, after the plugin is approved into the official Anthropic marketplace
+After the plugin is approved into the official Anthropic marketplace
 (`claude-plugins-official`):
 
 ```text
@@ -92,7 +86,7 @@ to Klarity. the MCP will use whatever authentication is configured by your organ
 |---|---|
 | `klarity_mcp/` | Python package: metadata + builders + CLI for regenerating manifests |
 | `.claude-plugin/plugin.json` | Claude Code plugin manifest (generated) |
-| `.claude-plugin/.mcp.json` | Claude Code MCP server config (generated, HTTP transport) |
+| `.mcp.json` | Claude Code MCP server config (generated, HTTP transport) |
 | `gemini-extension.json` | Gemini CLI extension manifest (generated) |
 | `skills/klarity-architect/SKILL.md` | The Klarity Architect skill prompt |
 | `tests/test_packaging.py` | Manifest invariants + drift checks |
